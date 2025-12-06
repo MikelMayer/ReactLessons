@@ -12,6 +12,7 @@ function MainPage() {
   return (
     <div>
       <Title />
+      <h1>Music Player</h1>
       <div style={{ display: "flex", gap: "20px" }}>
         <TracksList onTrackSelect={handleClick} selectedTrackId={trackId} />
         <TrackDetails selectedTrackId={trackId} />
